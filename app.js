@@ -13,7 +13,6 @@ const port = 3000;
 
 //*middle ware */
 app.use(morgan('dev'));
-
 app.use(express.json());
 
 const tours = JSON.parse(
